@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on David Suh の 일상.</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on David Suh の 일상.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 09 May 2023 21:00:21 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generalized $\mathbb R^n$-spaces in $\zeta_i(\operatorname{Rad}(3))$</title>
+      <link>/post/blog22/</link>
+      <pubDate>Tue, 09 May 2023 21:00:21 -0500</pubDate>
+      
+      <guid>/post/blog22/</guid>
+      
+      <description>&lt;h2 id=&#34;22&#34;&gt;22&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; random &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; random
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

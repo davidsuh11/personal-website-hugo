@@ -1,10 +1,160 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Home on David Suh の 일상.</title>
+    <link>/</link>
+    <description>Recent content in Home on David Suh の 일상.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2023 21:49:08 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Wed, 10 May 2023 17:02:52 -0500</pubDate>
+      
+      <guid>/resume/</guid>
+      
+      <description>&lt;style&gt;
+    .desc {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .dates {
+        font-size: 16px;
+        font-style: italic;
+        float: right;
+    }
+    .footnote {
+        font-size: 12px;
+    }
+&lt;/style&gt;
+&lt;hr&gt;
+&lt;h2&gt; Education &lt;/h2&gt;
+&lt;span class=&#34;title&#34;&gt; University of Chicago &lt;/span&gt;  
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;2020-2024 &lt;/div&gt; 
+    M.S. Computer Science  &lt;br&gt;
+    B.S. &amp;#123;Mathematics, Computer Science (spec. ML)&amp;#125;	 &lt;br&gt;
+    GPA: &lt;b&gt;3.79/4.0&lt;/b&gt; &lt;br&gt;
+    Relevant Coursework: &lt;span style=&#34;font-size: 16px&#34;&gt; Honors (Real) Analysis, Probability Theory (acc.), Honors Algebra, Networks (graduate), Machine Learning (doctorate), Computer Vision, Honors Theory of Algorithms, Convex Optimization, Topics in SSL, Bayesian Classifiers for Finance.&lt;/span&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Work Experience&lt;/h2&gt;
+&lt;span class=&#34;title&#34;&gt;Brave Software&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;June 2023 - Aug. 2023 (expected)&lt;/div&gt;
+    &lt;i&gt;Software Engineer Intern&lt;/i&gt; &lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt; Incoming engineer to work on crypto and decentralized verification systems for Brave Software and their Brave products, in particular their video chatting product Brave Talk. Also working on the Brave Rewards team, which is responsible for the Brave Ads system and the Brave Wallet.
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;span class=&#34;title&#34;&gt;EdLight, PBC&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Jan. 2023 - Present&lt;/div&gt;
+    &lt;i&gt;Machine Learning Engineer Contractor (prev. Intern)&lt;/i&gt; &lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Developed a machine learning solution for a system that automatically detects, crops, and uploads student work directly from their
+            webcam feed. 
+        &lt;li&gt;Work included creating a &lt;code&gt;docs-60k&lt;/code&gt; dataset of documents in natural backgrounds by curating from multiple existing datasets, fine tuning an instance of DeepLabV3 on PyTorch while using Weights and Biases for MLOps and optimization, and then preparing the model for edge device client-side deployment through quantization-aware training and using ONNX runtime web with React.js.
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;span class=&#34;title&#34;&gt;Voltage Economics Research Group @ UChicago&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Jan. 2023 - May 2023&lt;/div&gt;
+    &lt;i&gt;Research Assistant&lt;/i&gt; &lt;br&gt;
+    &lt;ul&gt;
+    &lt;li&gt;Worked as a research assistant in maintain and developing research related software and tools, including the maintenance and migration of the research group’s website using Django, react, and other data visualization tools such d3. Furthermore, implemented an optimized data pipeline uploaded papers and implemented an optimized segment tree system for searching.
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;span class=&#34;title&#34;&gt;University of Chicago Department of Mathematics&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Dec. 2021 - Dec. 2022&lt;/div&gt;
+    &lt;i&gt;Tutor/Grader&lt;/i&gt; &lt;br&gt;
+    &lt;ul&gt; 
+        &lt;li&gt;Graded for Accelerated (Real) Analysis III, an advanced 2nd/3rd year math course at UChicago, as well as tutoring first-year Calculus.
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2&gt;Competition-Extracurriculars-Projects&lt;/h2&gt;
+&lt;span class=&#34;title&#34;&gt;2023 Citadel Datathon Midwest Regional - 🥇(1st)&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Feb. 2023&lt;/div&gt;
+    &lt;i&gt;1&lt;sup&gt;st&lt;/sup&gt; place team&lt;/i&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Came in first in the Midwest Regional for Citadel’s 2023 Datathon. Winning paper was written on the environmental (and consequently health-related) effects of greenspaces and bluespaces, in particular on surface temperatures and air quality index through programmatic time series analysis, using metrics such as the Dicky-Fuller test, and providing strong evidence of data correlation through K-means segmentation and heuristic minima discovery.
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;span class=&#34;title&#34;&gt;2022 William Lowell Putnam Mathematics Exam - Top 25%&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Dec. 2022&lt;/div&gt;
+    &lt;i&gt;1000&lt;sup&gt;th&lt;/sup&gt; out of ~4,000 &lt;/i&gt;
+    &lt;ul&gt;
+        &lt;li&gt; Scored a 9/120&lt;sup&gt;[1]&lt;/sup&gt; on the 2022 Putnam Exam, a score which is just under the top 1000, about the 75th percentile overall.
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;span class=&#34;title&#34;&gt;2022 UChicago Mathematics REU&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;
+    &lt;div class=&#34;dates&#34;&gt;Jun. 2023 - Aug. 2023&lt;/div&gt;
+    &lt;i&gt;Paid Participant &lt;/i&gt;
+    &lt;ul&gt;
+        &lt;li&gt; Attended the UChicago Mathematics REU, a competitive program for undergraduates to spend 8 weeks emulating the graduate mathematics research process under the supervision of a mentor. The final paper, &lt;i&gt;Mean Field Games and Weak Solutions&lt;/i&gt;, written on the topic of stochastic mean field games, a natural topic that forms from optimal control of the Fokker-Planck equation, which concerns the optimization of the actions of a small agent compared to a large population. In particular, we consider the system $$
+            \begin{cases}
+            \partial_t u + H(x,D_xu, D_x^2u, m) = 0\\
+            \partial_t m + \operatorname{div}(H(D_pHm))-\partial_{ij}(D_{M_{ij}}H(D_pHm)) = 0\\
+            \end{cases} \quad \text{subject to} \quad
+            \begin{cases} 
+            u(x,T) = \psi(x, \theta(\cdot, T))\\
+            m(x,0) = m_0(x)
+            \end{cases}
+        $$
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;span class=&#34;footnote&#34;&gt;[1] Mean score is typically 0, median is around 1-2.&lt;/span&gt;
+&lt;h2&gt;Skills&lt;/h2&gt;
+&lt;span class=&#34;title&#34;&gt;Programming&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;Python (numpy/scipy, openCV2, cvxopt, pyTorch, TensorFlow, sklearn), C/C++, SQL, JavaScript/TypeScript, golang, R , java , Machine Learning, Convolutional Neural Networks, Graph Neural Networks, Computer Vision Systems&lt;/div&gt;
+&lt;span class=&#34;title&#34;&gt;Languages&lt;/span&gt;
+&lt;div class=&#34;desc&#34;&gt;English (native), Korean (native), Mandarin (conversational)&lt;/div&gt;
+&lt;hr&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Tue, 09 May 2023 21:22:19 -0500</pubDate>
+      
+      <guid>/about/</guid>
+      
+      <description>&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+My name is David Suh. I was born in Austin, Texas on December 17, 2001. After attending school until first grade while my dad completed his PhD, our family returned to South Korea for a while. While there, I attened Seoul International School from Grade 1 through 12. During this time, I would slowly but surely discover my passion for programming and mathematical thinking. I participated in a number of tournaments at the national/international level, such NAQT, IYPT/KYPT, Empire mock trial, and more. I was accepted into the University of Chicago in 2020. The first year I attended remotely from Korea, and for the second year onwards I have attended in person. I am currently a Mathematics and Computer Science major, and I am also part of the joint Masters program in Computer Science, thus I am also purusing a MS in Computer Science at the moment. My personal interests are in optimization, probabilistic algorithms, and machine learning. In my free time I go to the gym and play video games.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Generalized $\mathbb R^n$-spaces in $\zeta_i(\operatorname{Rad}(3))$</title>
+      <link>/post/blog22/</link>
+      <pubDate>Tue, 09 May 2023 21:00:21 -0500</pubDate>
+      
+      <guid>/post/blog22/</guid>
+      
+      <description>&lt;h2 id=&#34;22&#34;&gt;22&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; random &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; random
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>

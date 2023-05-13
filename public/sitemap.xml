@@ -2,10 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/resume/</loc>
+    <lastmod>2023-05-10T17:02:52-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
+    <lastmod>2023-05-09T21:49:08-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/about/</loc>
+    <lastmod>2023-05-09T21:22:19-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/post/blog22/</loc>
+    <lastmod>2023-05-09T21:00:21-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-05-09T21:00:21-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/series/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
