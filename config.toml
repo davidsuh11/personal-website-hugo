@@ -35,11 +35,8 @@ customCSS = ['/css/custom.css']            # path to custom css files, relative 
 customJS = []      
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
-
+series = "series" # see https://gohugo.io/templates/internal/#open-graph
+tags = "tags"
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
