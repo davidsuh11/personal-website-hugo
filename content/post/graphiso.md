@@ -43,7 +43,7 @@ From here, we will roughly sketch the proof as a thourough proof is too complex 
 It is easy to observe that summing over all $P(\sigma)$, the terms accounting for the transpositions dominates as $n\to\infty$. Therefore, we can conclude
 
 ----
-> **Lemma 2.**  Suppose $G\in \mathrm{Graph}(n)$ has non-trivial automorphisms. Then $$S_n\cap |\mathrm{Aut}(G)| = 1\qquad \text{a.s. as } n\to\infty$$ Namely, the one nontrivial automorphism is a transposition. 
+> **Lemma 2.**  Suppose $G\in \mathrm{Graph}(n)$ has non-trivial automorphisms. Then $$|S_n\cap \mathrm{Aut}(G)| = 1\qquad \text{a.s. as } n\to\infty$$ Namely, the one nontrivial automorphism is a transposition. 
 
 *Proof (sketch).* Since the $P(\sigma)$ terms from the tranpositions dominate, we can conclude from conditional probability and Lemma 1. ∎
 ___
@@ -53,6 +53,13 @@ i.e. for big $n$, any random graph will have only a trivial automorphism group w
 \end{align*}$$
 Therefore by log rules, $$
 \log_2 g_n = \frac{n(n-1)}{2} - \log_2 n!$$
-where since $\log_2n!$ grows subquadratically, we can conclude that $$\log_2 g_n \sim n^2/2.$$ as desired. 
+where since $\log_2n!$ grows subquadratically[^1], we can conclude that $$\log_2 g_n \sim n^2/2.$$ as desired. 
+
+[^1]: This is a bit of an handwave but one can observe that $\log n! \sim n\log n - n$ through e.g. [Ramanujuan's estimation](https://en.wikipedia.org/wiki/Stirling%27s_approximation#See_also) or estimation on the derivative of $\log x!$ via the Gamma function. 
+
 ## Afterword
 The reason I chose this problem was because I thought the intersection of probability and algebra in a combinatorics problem was quite interesting. While any well trained modern combinatorist will easily point out that these subjects have been indispensible tools in the field for a long time, I was personally quite shocked at the mosaic of techniques required here when I first solved this question. Thus I thought it appropriate to give it a rough treatment here.
+
+
+
+
